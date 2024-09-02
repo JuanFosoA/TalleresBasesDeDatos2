@@ -40,6 +40,8 @@ insert into pedidos (fecha, cantidad, valor_total, producto_id, cliente_id)
 values ('2024-08-23', 3 , 75000.00, '1', '2'),
        ('2024-08-24', 1 , 5000.00, '2', '2'),
        ('2024-08-25', 2 , 5000.00, '3', '3');
+      
+savepoint punto_de_restauracion;
 
 update clientes 
 set nombre = 'juan' 
@@ -74,4 +76,5 @@ where codigo = '2';
 delete from clientes 
 where identificacion = '2';
 
-rollback;
+rollback to savepoint punto_de_restauracion;
+commit;

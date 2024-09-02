@@ -1,9 +1,3 @@
-/*
-NOTA: Tuve un problema en la transacción. Pese a organizar los delete de tal manera que pedido fuera el primero en ser eliminado,
-esto arrojaba un error relacionado a la foreign key, como si aun tuviera elementos. Desconozco si es un fallo en la versión de 
-dbeaver como comento en la clase, otros compañeros los hicieron igual pero si les funcionó. Para hacerlo funcionar tuve que añadir ON DELETE CASCADE.
-*/
-
 create table clientes(
     identificacion varchar(10) primary key,
     nombre varchar(60) not null,
@@ -28,6 +22,7 @@ create table pedidos(
     foreign key (producto_id) references productos(codigo) on delete cascade,
     foreign key (cliente_id) references clientes(identificacion) on delete  cascade
 );
+
 
 begin;
 
@@ -79,4 +74,4 @@ where codigo = '2';
 delete from clientes 
 where identificacion = '2';
 
-commit;
+rollback;

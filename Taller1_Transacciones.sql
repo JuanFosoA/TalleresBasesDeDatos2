@@ -1,3 +1,9 @@
+/*
+NOTA: Tuve un problema en la transacción. Pese a organizar los delete de tal manera que pedido fuera el primero en ser eliminado,
+esto arrojaba un error relacionado a la foreign key, como si aun tuviera elementos. Desconozco si es un fallo en la versión de 
+dbeaver como comento en la clase, otros compañeros los hicieron igual pero si les funcionó. Para hacerlo funcionar tuve que añadir ON DELETE CASCADE.
+*/
+
 create table clientes(
     identificacion varchar(10) primary key,
     nombre varchar(60) not null,
@@ -23,7 +29,6 @@ create table pedidos(
     foreign key (cliente_id) references clientes(identificacion) on delete  cascade
 );
 
-
 begin;
 
 insert into clientes (identificacion, nombre, edad, correo) 
@@ -40,8 +45,6 @@ insert into pedidos (fecha, cantidad, valor_total, producto_id, cliente_id)
 values ('2024-08-23', 3 , 75000.00, '1', '2'),
        ('2024-08-24', 1 , 5000.00, '2', '2'),
        ('2024-08-25', 2 , 5000.00, '3', '3');
-      
-savepoint punto_de_restauracion;
 
 update clientes 
 set nombre = 'juan' 
@@ -76,5 +79,4 @@ where codigo = '2';
 delete from clientes 
 where identificacion = '2';
 
-rollback to savepoint punto_de_restauracion;
 commit;

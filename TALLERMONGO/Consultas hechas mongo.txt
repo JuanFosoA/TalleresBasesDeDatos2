@@ -1,0 +1,66 @@
+﻿Consulta
+-
+Actualización
+
+
+Updates:
+
+
+
+
+{"ISBN" : "9780439023481"}
+-
+{ $set: { "año" :  "2024" }}
+
+
+—---
+{
+  "Genero": "Fantasía",
+  "$expr": {
+        "$and": [
+          { "$gte": [{ "$toInt": "$año" }, 1995] },
+          { "$lte": [{ "$toInt": "$año" }, 1998] }
+        ]
+  }
+}
+-
+{
+  $set: {
+        “categoria”: “juvenil”
+  },
+}
+
+
+—-----
+{
+  "nombreAutor": { "$regex": "F", "$options": "i" }
+}
+
+
+-
+{ $set: { "nombreAutor" :  "Autor Desconocido" }}
+
+
+—------
+{"categoria": "juvenil", "año": "1996"}
+
+
+-
+{
+  $unset: {
+            "categoria":""
+  },
+  $push: {"categorias": {$each: ["Juan", "Francisco"]}}
+}
+—------
+
+
+{"ISBN": {"$exists": true}}
+
+
+-
+{
+  $set: {
+            "editorial":"Autonoma"
+  },
+}

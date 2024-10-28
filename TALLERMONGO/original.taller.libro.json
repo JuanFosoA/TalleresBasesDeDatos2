@@ -1,0 +1,200 @@
+[{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009b1"
+  },
+  "ISBN": "9780439023481",
+  "titulo": "Los juegos del hambre",
+  "nombreAutor": "Suzanne Collins",
+  "Genero": "Ciencia Ficción",
+  "año": "2008"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009b2"
+  },
+  "ISBN": "9780141439600",
+  "titulo": "Orgullo y prejuicio",
+  "nombreAutor": "Jane Austen",
+  "Genero": "Romance",
+  "año": "1813"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009b3"
+  },
+  "ISBN": "9780553296983",
+  "titulo": "Dune",
+  "nombreAutor": "Frank Herbert",
+  "Genero": "Ciencia Ficción",
+  "año": "1965"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009b4"
+  },
+  "ISBN": "9780307277671",
+  "titulo": "La carretera",
+  "nombreAutor": "Cormac McCarthy",
+  "Genero": "Distopía",
+  "año": "2006"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009b5"
+  },
+  "ISBN": "9780345538376",
+  "titulo": "Un cuento oscuro",
+  "nombreAutor": "Naomi Novik",
+  "Genero": "Fantasía",
+  "año": "2015"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009b6"
+  },
+  "ISBN": "9781408855652",
+  "titulo": "Harry Potter y la piedra filosofal",
+  "nombreAutor": "J.K. Rowling",
+  "Genero": "Fantasía",
+  "año": "1997"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009b7"
+  },
+  "ISBN": "9780316769488",
+  "titulo": "El guardián entre el centeno",
+  "nombreAutor": "J.D. Salinger",
+  "Genero": "Ficción",
+  "año": "1951"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009b8"
+  },
+  "ISBN": "9781501110368",
+  "titulo": "Por trece razones",
+  "nombreAutor": "Jay Asher",
+  "Genero": "Ficción Juvenil",
+  "año": "2007"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009b9"
+  },
+  "ISBN": "9780553573404",
+  "titulo": "Juego de tronos",
+  "nombreAutor": "George R.R. Martin",
+  "Genero": "Fantasía",
+  "año": "1996"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009ba"
+  },
+  "ISBN": "9780399501487",
+  "titulo": "El gran Gatsby",
+  "nombreAutor": "F. Scott Fitzgerald",
+  "Genero": "Ficción",
+  "año": "1925"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009bb"
+  },
+  "ISBN": "9780061120084",
+  "titulo": "Matar a un ruiseñor",
+  "nombreAutor": "Harper Lee",
+  "Genero": "Ficción",
+  "año": "1960"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009bc"
+  },
+  "ISBN": "9780451524935",
+  "titulo": "1984",
+  "nombreAutor": "George Orwell",
+  "Genero": "Distopía",
+  "año": "1949"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009bd"
+  },
+  "ISBN": "9780743273565",
+  "titulo": "Un mundo feliz",
+  "nombreAutor": "Aldous Huxley",
+  "Genero": "Distopía",
+  "año": "1932"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009be"
+  },
+  "ISBN": "9780156012195",
+  "titulo": "El señor de las moscas",
+  "nombreAutor": "William Golding",
+  "Genero": "Ficción",
+  "año": "1954"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009bf"
+  },
+  "ISBN": "9780812974010",
+  "titulo": "La historia interminable",
+  "nombreAutor": "Michael Ende",
+  "Genero": "Fantasía",
+  "año": "1979"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009c0"
+  },
+  "ISBN": "9780553213119",
+  "titulo": "Drácula",
+  "nombreAutor": "Bram Stoker",
+  "Genero": "Terror",
+  "año": "1897"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009c1"
+  },
+  "ISBN": "9780060850524",
+  "titulo": "El alquimista",
+  "nombreAutor": "Paulo Coelho",
+  "Genero": "Ficción",
+  "año": "1988"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009c2"
+  },
+  "ISBN": "9780062024039",
+  "titulo": "Cien años de soledad",
+  "nombreAutor": "Gabriel García Márquez",
+  "Genero": "Realismo Mágico",
+  "año": "1967"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009c3"
+  },
+  "ISBN": "9780143127741",
+  "titulo": "La sombra del viento",
+  "nombreAutor": "Carlos Ruiz Zafón",
+  "Genero": "Misterio",
+  "año": "2001"
+},
+{
+  "_id": {
+    "$oid": "671ecc790656c869b5f009c4"
+  },
+  "ISBN": "9780142437230",
+  "titulo": "Moby Dick",
+  "nombreAutor": "Herman Melville",
+  "Genero": "Aventura",
+  "año": "1851"
+}]
